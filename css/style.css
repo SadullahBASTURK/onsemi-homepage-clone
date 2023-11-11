@@ -1,0 +1,553 @@
+body{
+    font-family: 'Inter', sans-serif;
+    color: #212529;
+    font-size: 16px;
+}
+
+/********************* Navbar *******************/
+.img-logo{
+    width: 140px;
+    height: 25px;
+}
+
+.container{
+    max-width: 1320px;
+}
+
+.nav-link-color{
+    color: #212529;
+}
+
+.nav-link-color:hover{
+    color: #ff7920;
+}
+
+.btn:focus, .btn:active, .btn:hover{
+  box-shadow: none; /* Varsayılan gölgeyi kapatma */
+  outline: none; /* Tıklanabilirlik vurgusunu kapatma */
+  color: #ff7920;
+}
+
+.form-control{
+    border-radius: 10px;
+}
+
+.form-control:focus, .form-control:active, .form-control:hover {
+    box-shadow: none; /* Varsayılan gölgeyi kapatma */
+    outline: none; /* Tıklanabilirlik vurgusunu kapatma */
+    border-color: rgb(212, 212, 212);
+}
+
+.search-btn{
+    background-color: #ECF0F1;
+    border-color: rgb(212, 212, 212);
+    border-radius: 10px;
+    color: #707070;
+}
+
+.search-btn:focus, .search-btn:active, .search-btn:hover{
+    background-color: #212529;
+    border-color:#212529;
+    color: #ECF0F1;
+}
+
+.dropdown-menu{
+    min-width: 100%;
+    margin-top: 30px;
+    border-radius: 15px;
+    border-bottom: 4px solid #ff7920;
+}
+
+
+
+
+/********************* Carousel *******************/
+
+
+
+/* Göstergelerin ölçüleri */
+.carousel-indicators li {
+    width: 300px; /* Genişliği özelleştirmek için değeri istediğiniz gibi ayarlayın */
+    height: 4px; /* Yüksekliği özelleştirmek için değeri istediğiniz gibi ayarlayın */
+    margin: 0; /* Göstergeler arasındaki boşluğu ayarlamak için */
+    margin-bottom: -30px;
+  }
+  
+  /* Göstergelerin rengi */
+  .carousel-indicators li {
+    background-color: #3498db; /* Göstergelerin arka plan rengini değiştirmek için istediğiniz rengi kullanabilirsiniz */
+  }
+  
+  /* Aktif göstergenin rengi (seçili olan) */
+  .carousel-indicators .active {
+    background-color: #ff7920; /* Aktif göstergenin rengini değiştirmek için istediğiniz rengi kullanabilirsiniz */
+  }
+
+  .carousel-rel{
+    position: relative;
+    background-color: #1d3546;
+    background: linear-gradient(-20deg, #615959 0%, #505050 20%);
+    opacity: 0.8;
+  }
+
+  .carousel-abs{
+    position: absolute; 
+    bottom: 5px; 
+    left: 180px;
+  }
+
+  .carousel-btn{
+    width: 200px;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #dce2e8;
+  }
+
+  .carousel-content{
+    width: 500px;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: -40px;
+    padding: 25px 20px;
+    background: linear-gradient(-20deg, #615959 0%, #918881 20%);
+    border-radius: 8px;
+    opacity: 0.8;
+  }
+
+.carousel-content h5{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.carousel-content h1{
+    font-size: 30px;
+    color: #ff7920;
+}
+
+.carousel-content a{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.carousel-content button{
+    font-size: 16px;
+    color: #1d3546;
+    border: 1px solid #ff7920;
+    border-radius: 20px;
+    background-color: #ff7920;
+}
+
+.carousel-content button:hover{
+    background-color: #ffffff;
+}
+  
+
+
+/********************* Slogan *******************/
+
+
+
+.slogan-bg{
+    font-size: 30px;
+    background-color: #1d3546;
+}
+
+.slogan-btn{
+    border-radius: 20px;
+}
+
+
+
+/********************* Solutions *******************/
+
+
+
+.slt-btn{
+    background-color: #ff7920;
+    border-radius: 20px;
+}
+
+.slt-btn:hover{
+    background-color: #ffffff;
+    color: #212529;
+    border: 1px solid #ff7920;
+}
+
+.btn-img{
+    position: absolute;
+    background-color: #1d3546;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.btn-img:hover{
+    background-color: #ff7920;
+    color: #1d3546;
+}
+
+.btn-img-1{
+    top: -400px;
+    left: 350px;
+}
+
+.btn-img-2{
+    top: -400px;
+    left: 500px;
+}
+
+.btn-img-3{
+    top: -400px;
+    left: 650px;
+}
+
+.btn-img-4{
+    top: -220px;
+    left: 150px;
+}
+
+.btn-img-5{
+    top: -70px;
+    left: 200px;
+}
+
+.btn-img-6{
+    top: -70px;
+    left: 500px;
+}
+
+.btn-img-7{
+    top: -70px;
+    left: 850px;
+}
+ 
+.btn-img-8{
+    top: -150px;
+    left: 700px;
+}
+  
+
+
+
+/********************* Industrial Solution *******************/
+
+.buton{
+    position: absolute;  
+    transform: translate(-50%, -50%);
+    padding: 2px 8px;
+    background-color: #1d3546;
+    color: #ffffff;
+    border-radius: 20px; 
+    text-decoration: none;
+    z-index: 1;
+}
+
+.buton:hover{
+    background-color: #ff7920;
+    color: #1d3546;
+    border: none;
+}
+
+.buton-1 {
+    top: 60px;
+    left: 150px;
+}
+
+.buton-2 {
+    bottom: 90px;
+    left: 100px;
+}
+
+.buton-3 {
+    bottom: 90px;
+    left: 400px;
+    width: max-content;
+}
+
+.buton-4 {
+    bottom: 230px;
+    left: 300px;
+}
+
+.buton-5 {
+    bottom: 280px;
+    left: 420px;
+}
+
+
+
+
+/********************* 5G & Cloud Power *******************/
+
+
+
+.btn-5g-1{
+    bottom: 280px;
+    left: 420px;
+}
+
+.btn-5g-2{
+    top: 30px;
+    left: 200px;
+}
+
+.btn-5g-3{
+    bottom: 280px;
+    left: 200px;
+}
+
+.btn-5g-4{
+    bottom: 100px;
+    left: 200px;
+}
+
+
+
+/********************* Who We Are *******************/
+
+
+.w-w-a-img-1{
+    background-image: url('https://www.onsemi.com/images/home/vision.jpg');
+    width: 100%;
+    height: 394px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.w-w-a-img-1 div{
+    margin-right: -15px;
+    width: 40%;
+    height: 100%;
+    padding: 50px;
+    background:rgba(29, 53, 70, 0.90);
+}
+
+.w-w-a-img-1 div button, .w-w-a-img-2 div button{
+    background-color: #ff7920;
+    color: #1d3546;
+    border: 1px solid #ff7920;
+}
+
+.w-w-a-img-1 div button:hover, .w-w-a-img-2 div button:hover{
+    background-color: #ffffff;
+    color: #1d3546;
+}
+
+.w-w-a-img-2{
+    background-image: url('https://www.onsemi.com/images/home/mission.jpg');
+    width: 100%;
+    height: 506px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.w-w-a-img-2 div{
+    margin-left: -15px;
+    width: 45%;
+    height: 100%;
+    padding: 60px;
+    background:rgba(29, 53, 70, 0.90);
+}
+
+
+
+/********************* Featured *******************/
+
+
+
+.btn-feat{
+    border: 1px solid #1d3546;
+    color: #2c4c6a;
+}
+
+.btn-feat:hover{
+    background-color: #1d3546;
+    color: #ffffff;
+}
+
+
+
+/********************* More To Explore *******************/
+
+
+
+.m-t-e-img-1{
+    background-image: url('https://www.onsemi.com/site/images/onsemi_diversity_group.png');
+    width: 100%;
+    height: 418px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.m-t-e-img-1 div{
+    margin-right: -15px;
+    width: 40%;
+    height: 100%;
+    padding: 50px;
+    background:rgba(29, 53, 70, 0.90);
+}
+
+.m-t-e-img-1 div button, .m-t-e-img-2 div button{
+    background-color: #ff7920;
+    color: #1d3546;
+    border: 1px solid #ff7920;
+}
+
+.m-t-e-img-1 div button:hover, .m-t-e-img-2 div button:hover{
+    background-color: #ffffff;
+    color: #1d3546;
+}
+
+.m-t-e-img-2{
+    background-image: url('https://www.onsemi.com/site/images/IR_banner_image.jpg');
+    width: 100%;
+    height: 418px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.m-t-e-img-2 div{
+    margin-left: -15px;
+    width: 45%;
+    height: 100%;
+    padding: 60px;
+    background:rgba(29, 53, 70, 0.90);
+}
+
+
+
+/********************* Footer *******************/
+
+
+footer{
+    background-color: #1d3546;
+    padding: 32px 0;
+}
+
+footer p{
+    color: #ff7920;
+}
+
+footer .btn-group button{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+footer .btn-group button:hover{
+    background-color: #ffffff;
+    color: #1d3546;
+    border: 1px solid #ffffff;
+}
+
+.footer-links{
+    color: #fcfcfd;
+    font-size: 16px;
+}
+
+.footer-links:hover{
+    color: #ff7920;
+    text-decoration: none;
+}
+
+.copyright{
+    margin-top: -20px;
+}
+
+.copyright a{
+    color: #fcfcfd;
+    text-decoration: none;
+    border-right: 1.5px solid #dce2e8;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 3px;
+    padding-right: 10px;
+}
+
+.copyright a:hover{
+    color: #ff7920;
+}
+
+
+
+/********************* Scrollbar *******************/
+
+
+/* Kaydırma çubuğu rengi */
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(29, 53, 70, 0.75);
+    border-radius: 20px;
+  }
+  
+  /* Kaydırma çubuğu şekli ve boyutu */
+  ::-webkit-scrollbar-track {
+    border-radius: 100px;
+  }
+
+  /* Kaydırma çubuğu üzerine gelindiğinde rengi değiştir */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff7920; /* İstediğiniz renk */
+  }
+
+
+
+  /************************** Modal **************************/
+
+
+
+  /* .feedback {
+    text-align: center;
+    margin: 20px;
+  } */
+  
+  .rating {
+    font-size: 0;
+  }
+  
+  .star {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 50px;
+    color: #6b6b6b;
+    transition: color 0.3s;
+  }
+  
+  .star:hover {
+    color: #1d3546;
+  }
+  
+  .feedback-text {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+
+  .modal-btn-1{
+    border: 1px solid #212529;
+    border-radius: 20px;
+    color: #1d3546;
+  }
+
+  .modal-btn-1:hover{
+        background-color: #1d3546;
+        color: #ffffff;
+  }
+
+  .modal-btn-2{
+    border: 1px solid #ff7920;
+    border-radius: 20px;
+    color: #1d3546;
+    background-color: #ff7920;
+  }
+
+  .modal-btn-2:hover{
+    background-color: #ffffff;
+    color: #1d3546;
+  }
+
+
+  
