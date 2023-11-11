@@ -111,7 +111,7 @@ body{
     margin-bottom: 60px;
     margin-left: -40px;
     padding: 25px 20px;
-    background: linear-gradient(-20deg, #615959 0%, #918881 20%);
+    background: linear-gradient(-20deg, #6e6161 0%, rgb(110, 105, 100) 20%);
     border-radius: 8px;
     opacity: 0.8;
   }
